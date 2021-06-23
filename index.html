@@ -12,6 +12,8 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/styles.css" />
   </head>
 
@@ -49,7 +51,7 @@
             </div>
           </form>
           <div class="overview">
-            <h1 id="city">New York</h1>
+            <h1 id="city"></h1>
             <ul>
               <li id="date">Friday 18:00</li>
               <li id="description">Sunny</li>
@@ -65,8 +67,9 @@
                 />
 
                 <div class="float-left">
-                  <div id="temperature">
-                    <strong>20</strong><span class="units">°C</span>
+                  <div>
+                    <strong id="temperature"></strong
+                    ><span class="units">°C</span>
                   </div>
                 </div>
               </div>
